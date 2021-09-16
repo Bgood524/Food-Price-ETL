@@ -1,4 +1,4 @@
-# Food-Price-ETL
+# Labor-Statistics-ETL
 Extract, Transform, Load of Food Prices
 
 Project Proposal: 
