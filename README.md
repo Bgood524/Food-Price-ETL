@@ -1,5 +1,5 @@
 # Labor-Statistics-ETL
-Extract, Transform, Load of Food Prices
+Extract, Transform, Load of employment data such as liklihood of automation and salary data. 
 
 Project Proposal: 
 
