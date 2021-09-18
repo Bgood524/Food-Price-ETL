@@ -1,24 +1,9 @@
-<<<<<<< Updated upstream
-﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-
-
-CREATE TABLE "Automation" (
-    "id" SERIAL   NOT NULL,
-    "SOC" VARCHAR(255)   NOT NULL,
-    "OCCUPATION" VARCHAR(255)   NOT NULL,
-=======
--- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
--- Link to schema: https://app.quickdatabasediagrams.com/#/d/fGXbcm
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
-
 DROP TABLE "Automation";
 DROP TABLE "Salary";
 DROP TABLE "SOC_keys" CASCADE;
 CREATE TABLE "Automation" (
     "id" SERIAL   NOT NULL,
     "SOC" VARCHAR(255)   NOT NULL,
->>>>>>> Stashed changes
     "Automation_Probability" FLOAT   NOT NULL,
     "Alabama" INT   NOT NULL,
     "Alaska" INT   NOT NULL,
@@ -77,30 +62,6 @@ CREATE TABLE "Automation" (
 );
 
 CREATE TABLE "Salary" (
-<<<<<<< Updated upstream
-    "SOC" VARCHAR(255)   NOT NULL,
-    "OCC_TITLE" VARCHAR(255)   NOT NULL,
-    "OCC_GROUP" VARCHAR(255)   NOT NULL,
-    "TOT_EMP" INT   NOT NULL,
-    "EMP_PRSE" FLOAT   NOT NULL,
-    "H_MEAN" FLOAT   NOT NULL,
-    "A_MEAN" INT   NOT NULL,
-    "MEAN_PRSE" FLOAT   NOT NULL,
-    "H_PCT10" FLOAT,
-    "H_PCT25" FLOAT,
-    "H_MEDIAN" FLOAT,
-    "H_PCT75" FLOAT,
-    "H_PCT90" FLOAT,
-    "A_PCT10" INT,
-    "A_PCT25" INT,
-    "A_MEDIAN" INT,
-    "A_PCT75" INT,
-    "A_PCT90" INT,
-    "ANNUAL" INT   NOT NULL,
-    "HOURLY" INT   NOT NULL,
-    CONSTRAINT "pk_Salary" PRIMARY KEY (
-        "SOC"
-=======
     "id" SERIAL   NOT NULL,
     "SOC" VARCHAR(255)   NOT NULL,
     "TOT_EMP" INT   NULL,
@@ -128,20 +89,16 @@ CREATE TABLE "Salary" (
 CREATE TABLE "SOC_keys" (
     "SOC_code" VARCHAR(255)   NOT NULL,
     "SOC_title" VARCHAR(255)   NOT NULL,
-    "SPC_group" VARCHAR(255)   NOT NULL,
+    "SOC_group" VARCHAR(255)   NOT NULL,
     CONSTRAINT "pk_SOC_keys" PRIMARY KEY (
         "SOC_code"
->>>>>>> Stashed changes
      )
 );
 
 ALTER TABLE "Automation" ADD CONSTRAINT "fk_Automation_SOC" FOREIGN KEY("SOC")
-<<<<<<< Updated upstream
-REFERENCES "Salary" ("SOC");
-=======
 REFERENCES "SOC_keys" ("SOC_code");
 
 ALTER TABLE "Salary" ADD CONSTRAINT "fk_Salary_SOC" FOREIGN KEY("SOC")
 REFERENCES "SOC_keys" ("SOC_code");
->>>>>>> Stashed changes
+
 
