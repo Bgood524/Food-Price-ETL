@@ -1,6 +1,7 @@
 DROP TABLE "Automation";
 DROP TABLE "Salary";
-DROP TABLE "SOC_keys" CASCADE;
+DROP TABLE "SOC_keys";
+
 CREATE TABLE "Automation" (
     "id" SERIAL   NOT NULL,
     "SOC" VARCHAR(255)   NOT NULL,
@@ -64,6 +65,7 @@ CREATE TABLE "Automation" (
 CREATE TABLE "Salary" (
     "id" SERIAL   NOT NULL,
     "SOC" VARCHAR(255)   NOT NULL,
+	"OCC_GROUP" VARCHAR(255) NOT NULL,
     "TOT_EMP" INT   NULL,
     "EMP_PRSE" FLOAT   NULL,
     "H_MEAN" FLOAT   NULL,
@@ -89,7 +91,7 @@ CREATE TABLE "Salary" (
 CREATE TABLE "SOC_keys" (
     "SOC_code" VARCHAR(255)   NOT NULL,
     "SOC_title" VARCHAR(255)   NOT NULL,
-    "SOC_group" VARCHAR(255)   NOT NULL,
+	"SOC_group" VARCHAR(255),
     CONSTRAINT "pk_SOC_keys" PRIMARY KEY (
         "SOC_code"
      )
@@ -100,5 +102,3 @@ REFERENCES "SOC_keys" ("SOC_code");
 
 ALTER TABLE "Salary" ADD CONSTRAINT "fk_Salary_SOC" FOREIGN KEY("SOC")
 REFERENCES "SOC_keys" ("SOC_code");
-
-
