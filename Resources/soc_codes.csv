@@ -1,4 +1,4 @@
-﻿SOC Group,SOC Code,SOC Title
+SOC Group,SOC Code,SOC Title
 Major,11-0000,Management Occupations
 Minor,11-1000,Top Executives
 Broad,11-1010,Chief Executives
@@ -50,6 +50,7 @@ Broad,11-9040,Architectural and Engineering Managers
 Detailed,11-9041,Architectural and Engineering Managers
 Broad,11-9050,Food Service Managers
 Detailed,11-9051,Food Service Managers
+Broad,11-9060,Funeral Service Managers
 Broad,11-9070,Entertainment and Recreation Managers
 Detailed,11-9071,Gambling Managers
 Detailed,11-9072,"Entertainment and Recreation Managers, Except Gambling"
@@ -134,24 +135,26 @@ Detailed,13-2082,Tax Preparers
 Broad,13-2090,Miscellaneous Financial Specialists
 Detailed,13-2099,"Financial Specialists, All Other"
 Major,15-0000,Computer and Mathematical Occupations
-Minor,15-1200,Computer Occupations
-Broad,15-1210,Computer and Information Analysts
-Detailed,15-1211,Computer Systems Analysts
-Detailed,15-1212,Information Security Analysts
-Broad,15-1220,Computer and Information Research Scientists
-Detailed,15-1221,Computer and Information Research Scientists
-Broad,15-1230,Computer Support Specialists
-Detailed,15-1231,Computer Network Support Specialists
-Detailed,15-1232,Computer User Support Specialists
-Broad,15-1240,Database and Network Administrators and Architects
-Detailed,15-1241,Computer Network Architects
-Detailed,15-1242,Database Administrators
-Detailed,15-1243,Database Architects
-Detailed,15-1244,Network and Computer Systems Administrators
-Broad,15-1250,"Software and Web Developers, Programmers, and Testers"
-Detailed,15-1251,Computer Programmers
-Detailed,15-1252,Software Developers
-Detailed,15-1253,Software Quality Assurance Analysts and Testers
+Minor,15-1100,Computer Occupations
+Broad,15-1110,Computer and Information Research Scientists
+Detailed,15-1111,Computer and Information Research Scientists
+Broad,15-1120,Computer and Information Analysts
+Detailed,15-1121,Computer Systems Analysts
+Detailed,15-1122,Information Security Analysts
+Broad,15-1130,Software Developers and Programmers
+Detailed,15-1131,Computer Programmers
+Detailed,15-1132,"Software Developers, Applications"
+Detailed,15-1133,"Software Developers, Systems Software"
+Detailed,15-1134,Web Developers
+Broad,15-1140,Database and Systems Administrators and Network Architects
+Detailed,15-1141,Database Administrators
+Detailed,15-1142,Network and Computer Systems Administrators
+Detailed,15-1143,Computer Network Architects
+Broad,15-1150,Computer Support Specialists
+Detailed,15-1151,Computer User Support Specialists
+Detailed,15-1152,Computer Network Support Specialists
+Broad,15-1190,Miscellaneous Computer Occupations
+Detailed,15-1199,"Computer Occupations, All Other"
 Detailed,15-1254,Web Developers
 Detailed,15-1255,Web and Digital Interface Designers
 Broad,15-1290,Miscellaneous Computer Occupations
@@ -429,6 +432,8 @@ Detailed,25-3031,"Substitute Teachers, Short-Term"
 Broad,25-3040,Tutors
 Detailed,25-3041,Tutors
 Broad,25-3090,Miscellaneous Teachers and Instructors
+Detailed,25-3097,"Teachers and Instructors, All Other, Except Substitute Teachers"
+Detailed,25-3098,Substitute Teachers
 Detailed,25-3099,"Teachers and Instructors, All Other"
 Minor,25-4000,"Librarians, Curators, and Archivists"
 Broad,25-4010,"Archivists, Curators, and Museum Technicians"
@@ -440,11 +445,14 @@ Detailed,25-4022,Librarians and Media Collections Specialists
 Broad,25-4030,Library Technicians
 Detailed,25-4031,Library Technicians
 Minor,25-9000,Other Educational Instruction and Library Occupations
+Broad,25-9010,Audio-Visual and Multimedia Collections Specialists
+Detailed,25-9011,Audio-Visual and Multimedia Collections Specialists
 Broad,25-9020,Farm and Home Management Educators
 Detailed,25-9021,Farm and Home Management Educators
 Broad,25-9030,Instructional Coordinators
 Detailed,25-9031,Instructional Coordinators
 Broad,25-9040,Teaching Assistants
+Detailed,25-9041,Teaching Assistants
 Detailed,25-9042,"Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education"
 Detailed,25-9043,"Teaching Assistants, Special Education"
 Detailed,25-9044,"Teaching Assistants, Postsecondary"
@@ -529,6 +537,15 @@ Broad,29-1040,Optometrists
 Detailed,29-1041,Optometrists
 Broad,29-1050,Pharmacists
 Detailed,29-1051,Pharmacists
+Broad,29-1060,Physicians and Surgeons
+Detailed,29-1061,Anesthesiologists
+Detailed,29-1062,Family and General Practitioners
+Detailed,29-1063,"Internists, General"
+Detailed,29-1064,Obstetricians and Gynecologists
+Detailed,29-1065,"Pediatricians, General"
+Detailed,29-1066,Psychiatrists
+Detailed,29-1067,Surgeons
+Detailed,29-1069,"Physicians and Surgeons, All Other"
 Broad,29-1070,Physician Assistants
 Detailed,29-1071,Physician Assistants
 Broad,29-1080,Podiatrists
@@ -554,6 +571,8 @@ Broad,29-1170,Nurse Practitioners
 Detailed,29-1171,Nurse Practitioners
 Broad,29-1180,Audiologists
 Detailed,29-1181,Audiologists
+Broad,29-1190,Miscellaneous Health Diagnosing and Treating Practitioners
+Detailed,29-1199,"Health Diagnosing and Treating Practitioners, All Other"
 Broad,29-1210,Physicians
 Detailed,29-1211,Anesthesiologists
 Detailed,29-1212,Cardiologists
@@ -1446,3 +1465,96 @@ Detailed,55-3015,Command and Control Center Specialists
 Detailed,55-3016,Infantry
 Detailed,55-3018,Special Forces
 Detailed,55-3019,"Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members, All Other"
+Total,00-0000,All Occupations
+Detailed,11-2031,Public Relations and Fundraising Managers
+Detailed,11-3011,Administrative Services Managers
+Detailed,11-9061,Funeral Service Managers
+Detailed,13-2021,Appraisers and Assessors of Real Estate
+Detailed,15-2091,Mathematical Technicians
+Detailed,19-3031,"Clinical, Counseling, and School Psychologists"
+Detailed,19-4011,Agricultural and Food Science Technicians
+Detailed,19-4041,Geological and Petroleum Technicians
+Detailed,19-4091,"Environmental Science and Protection Technicians, Including Health"
+Detailed,19-4093,Forest and Conservation Technicians
+Detailed,23-2091,Court Reporters
+Detailed,25-1191,Graduate Teaching Assistants
+Detailed,25-2052,"Special Education Teachers, Kindergarten and Elementary School"
+Detailed,25-2053,"Special Education Teachers, Middle School"
+Detailed,25-2054,"Special Education Teachers, Secondary School"
+Detailed,25-4021,Librarians
+Detailed,27-3012,Public Address System and Other Announcers
+Detailed,27-3021,Broadcast News Analysts
+Detailed,27-3022,Reporters and Correspondents
+Detailed,27-4013,Radio Operators
+Broad,29-2020,Dental Hygienists
+Detailed,29-2021,Dental Hygienists
+Detailed,29-2041,Emergency Medical Technicians and Paramedics
+Detailed,29-2054,Respiratory Therapy Technicians
+Detailed,29-2071,Medical Records and Health Information Technicians
+Broad,29-9010,Occupational Health and Safety Specialists and Technicians
+Detailed,29-9011,Occupational Health and Safety Specialists
+Detailed,29-9012,Occupational Health and Safety Technicians
+Minor,31-1000,"Nursing, Psychiatric, and Home Health Aides"
+Broad,31-1010,"Nursing, Psychiatric, and Home Health Aides"
+Detailed,31-1011,Home Health Aides
+Detailed,31-1013,Psychiatric Aides
+Detailed,31-1014,Nursing Assistants
+Detailed,31-1015,Orderlies
+Detailed,35-3021,"Combined Food Preparation and Serving Workers, Including Fast Food"
+Detailed,35-3022,"Counter Attendants, Cafeteria, Food Concession, and Coffee Shop"
+Detailed,39-1011,Gaming Supervisors
+Detailed,39-1012,Slot Supervisors
+Detailed,39-1021,First-Line Supervisors of Personal Service Workers
+Broad,39-9020,Personal Care Aides
+Detailed,39-9021,Personal Care Aides
+Detailed,41-3099,"Sales Representatives, Services, All Other"
+Broad,43-5080,Stock Clerks and Order Fillers
+Detailed,43-5081,Stock Clerks and Order Fillers
+Broad,43-9010,Computer Operators
+Detailed,43-9011,Computer Operators
+Broad,45-3010,Fishers and Related Fishing Workers
+Detailed,45-3011,Fishers and Related Fishing Workers
+Detailed,47-5021,"Earth Drillers, Except Oil and Gas"
+Detailed,47-5031,"Explosives Workers, Ordnance Handling Experts, and Blasters"
+Detailed,47-5042,Mine Cutting and Channeling Machine Operators
+Broad,47-5060,"Roof Bolters, Mining"
+Detailed,47-5061,"Roof Bolters, Mining"
+Detailed,49-9093,"Fabric Menders, Except Garment"
+Detailed,51-2091,Fiberglass Laminators and Fabricators
+Detailed,51-2093,Timing Device Assemblers and Adjusters
+Broad,51-4010,Computer Control Programmers and Operators
+Detailed,51-4011,"Computer-Controlled Machine Tool Operators, Metal and Plastic"
+Detailed,51-4012,"Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic"
+Detailed,51-9121,"Coating, Painting, and Spraying Machine Setters, Operators, and Tenders"
+Detailed,51-9122,"Painters, Transportation Equipment"
+Broad,53-1010,Aircraft Cargo Handling Supervisors
+Detailed,53-1011,Aircraft Cargo Handling Supervisors
+Broad,53-1020,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand"
+Detailed,53-1021,"First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand"
+Broad,53-1030,First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators
+Detailed,53-1031,First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators
+Broad,53-3020,Bus Drivers
+Detailed,53-3021,"Bus Drivers, Transit and Intercity"
+Detailed,53-3022,"Bus Drivers, School or Special Client"
+Broad,53-3040,Taxi Drivers and Chauffeurs
+Detailed,53-3041,Taxi Drivers and Chauffeurs
+Detailed,53-4012,Locomotive Firers
+Detailed,53-4021,"Railroad Brake, Signal, and Switch Operators"
+Detailed,53-7032,Excavating and Loading Machine and Dragline Operators
+Detailed,53-7033,"Loading Machine Operators, Underground Mining"
+Broad,53-7110,Mine Shuttle Car Operators
+Detailed,53-7111,Mine Shuttle Car Operators
+,13-1078,Human Resources; Training; and Labor Relations Specialists; All Other
+,15-1179,Information Security Analysts; Web Developers; and Computer Network Architects
+,15-1799,Computer Occupations; All Other
+,25-3999,Teachers and Instructors; All Other
+,29-1111,Registered Nurses
+,29-2037,Radiologic Technologists and Technicians
+,29-2799,Health Technologists and Technicians; All Other
+,29-9799,Healthcare Practitioners and Technical Workers; All Other
+,31-9799,Healthcare Support Workers; All Other
+,39-4831,Funeral Service Managers; Directors; Morticians; and Undertakers
+,45-3021,Hunters and Trappers
+,47-4799,Construction and Related Workers; All Other
+,49-9799,Installation; Maintenance; and Repair Workers; All Other
+,51-9399,Production Workers; All Other
