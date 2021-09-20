@@ -20,4 +20,4 @@ There were mulitple data cleaning and formatting techniques utilized when transf
 - When loading our dataframes to SQL we utilized the argument "Index = False" becuase primary keys are already set up in our schema.sql.
 - The annual_only and salary_only columns were ultimately changed from bit to INT in our schema.sql, still effectively functioning as a boolean column in the database.
 
-After establishing a database connection to our PostgreSQL database labor_statistics_db, we were successfully able to load our data into our database. The labor_statistics_data is ready for immediate and practical use.  
+After establishing a database connection to our PostgreSQL database labor_statistics_db, we were successfully able to load our data into our database. The labor_stats_db is ready for immediate and practical use.  
