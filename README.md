@@ -17,7 +17,7 @@ The first was, would we merge the dataframe in our jupyter notebook, or set up m
 We also ran into an issue with some of the salary data, as the original data sources utilized a "#" symbol when an hourly wage was greater than $100 per hour and an annual wage greater than $208,000. In order to keep the data in a a format where statistical analyses could be run without inserting values to skew the data, we converted each "#" value to a null value, which in essence reads as "we are not sure what this value is." Ultimately we would rather have a database with slight limitations rather than misleading data. Other smaller decisions/cleaning methods while transorming the data inlcude:
 
 - Do we change all the abbreviated column headers in the salary and automation tables to the long-form titles? Or upload a "key" file defining each column? We decided to keep the original column headers, and provide a table of keys for each abbreviation (see Exhibit 1 below). 
-- We utilized a ERD (Entity Relationship Diagram) ![tool](https://github.com/Bgood524/Labor-Statistics-ETL/blob/main/DRD_Screenshot.PNG) when creating our SQL tables
+- We utilized a ERD (Entity Relationship Diagram) when creating our SQL tables (see ERD_Screenshot.PNG file).
 - Using an INT datatype for the yes/no Annual_only with 1s and 0s since SQL does not have a boolean datatype.
 - Cleaned the data to remove commas from the salary table to import to INT datatype in SQL.
 - Merged the 2010 and 2018 SOC codes for the soc_df in order to inlcude all SOC codes including in both the salary and automation tables.
